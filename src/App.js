@@ -29,9 +29,13 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display/>
-        <Numbers numbers={numbers}/>
-        <Operators operators={operators}/>
-        <Specials specials={specials}/>
+        <div className="horizontalFlex">
+          <div className="verticalFlex">
+            <Specials specials={specials}/>
+            <Numbers numbers={numbers}/>
+          </div>
+          <Operators operators={operators}/>
+        </div>
       </div>
     </div>
   );

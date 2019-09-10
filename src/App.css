@@ -7,7 +7,7 @@
     padding: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px 0;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -21,8 +21,15 @@
     font-size: 5.0rem;
   }
 
+.horizontalFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
 .button {
     font-size: 3rem;
     border-radius: 100%;
-    padding: 2rem;
+    height: 6rem;
+    width: 6rem;
+    margin: .5rem;
 }
